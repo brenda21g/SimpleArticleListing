@@ -1,0 +1,144 @@
+
+body{
+  margin: 0;
+   font-family:'Inter', sans-serif;
+  background: #fff;
+  color: #111;
+  font-weight: bold;
+}
+
+.articles {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.articles h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+}
+
+.separator {
+  width: 120px;
+  height: 3px;
+  background: repeating-linear-gradient();
+  margin: 20px auto 40px;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.article img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.article .content h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.article .date {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .articles {
+    padding: 0 10px;
+  }
+
+  .articles h1 {
+    font-size: 1.1rem; /* Igual que h2 */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .article img {
+    width: 150px;
+    height: auto; /* mejor usar auto para mantener proporción */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .article .content {
+    width: 100%;
+    text-align: left;
+  }
+
+  .article h2 {
+    font-size: 1rem;
+    margin: 0 12px 6px 0; /* agregué unidades px */
+  }
+
+  .article .date {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .articles h1 {
+    font-size: 1.6rem; 
+    font-weight: bold;
+    
+  }
+
+  .article img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .article h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Computadora */
+@media (min-width: 1025px) {
+  .article img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .article h2 {
+    font-size: 1.3rem;
+  }
+}
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+

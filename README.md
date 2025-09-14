@@ -28,8 +28,8 @@ Todo está organizado en formato de tarjetas verticales, para no generar ruido v
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [https://github.com/brenda21g/SimpleArticleListing]  
-Deploy: [LINK]()
+Repositorio en GitHub: [Pega aquí tu enlace]  
+Deploy: [LINK](https://github.com/brenda21g/SimpleArticleListing)
 ---
 
 ## 📝 Reflexión
